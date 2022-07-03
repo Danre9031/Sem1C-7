@@ -15,7 +15,7 @@ for (int i = 0; i < array.GetLength(0); i++)
         if (j == sizeJ-1)
             {
                 result=result/sizeJ;
-                Console.Write(Math.Round(result,2) + "/");
+                Console.Write(Math.Round(result,2) + " ");
                 result=0;
             }
 
